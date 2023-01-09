@@ -18,7 +18,8 @@ class Locators {
 	static void setUpBeforeClass() throws Exception {
 		System.setProperty("driver.chrome.browser", "C:\\\\Users\\\\Badri\\\\Documents\\\\My Lib\\\\chromedriver.exe");
 		driver = new ChromeDriver();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
+		System.out.println("Hello World");
 		driver.get("https://www.google.com/");
 		driver.manage().window().maximize();
 		Thread.sleep(3000);

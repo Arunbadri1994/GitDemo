@@ -15,7 +15,7 @@ class JUnitPractice {
 	static void setUpBeforeClass() throws Exception {
 		System.setProperty("driver..chrome.browser", "C:\\\\Users\\\\Badri\\\\Documents\\\\My Lib\\\\geckodriver.exe");
 		driver= new ChromeDriver();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.manage().window().maximize();
 	}
 
